@@ -1,8 +1,10 @@
 pandas
-numpy
+numpy==1.25.0
 python-dotenv
 mysql-connector-python
 pymysql
 scikit-learn
 seaborn
+catboost==1.2.5
+xgboost
 #-e .
