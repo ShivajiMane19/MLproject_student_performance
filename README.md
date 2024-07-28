@@ -1,17 +1,11 @@
-# Machine Learning Project
-## Student Performance 
-1. Project Structure
-2. Data Ingestion
-3. EDA and Feature Engineering
-4. Model Training
-5. Model Deployment
-6. Model Evaluation
+# Machine Learning Project : Students Performance Prediction
 
-# mlflow tracking
-import dagshub
-dagshub.init(repo_owner='maneshiva92', repo_name='MLproject_student_performance', mlflow=True)
+## Project Objective: To develop a machine learning model to predict student performance based on demographic and other factors.
 
-import mlflow
-with mlflow.start_run():
-  mlflow.log_param('parameter name', 'value')
-  mlflow.log_metric('metric name', 1)
+### This End-to-End project follows below mentioned steps
+    1. Project Structure
+    2. Data Ingestion
+    3. EDA and Feature Engineering
+    4. Model Training
+    5. Model Deployment
+    6. Model Evaluation
