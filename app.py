@@ -5,6 +5,8 @@ from src.mlproject.components.data_transformation import DataTransformation, Dat
 from src.mlproject.components.model_trainer import ModelTrainer, ModelTrainerConfig
 import sys
 
+import dagshub
+import mlflow
 
 
 if __name__=="__main__":
@@ -22,7 +24,15 @@ if __name__=="__main__":
         # model training
         model_trainer = ModelTrainer()
         print(model_trainer.initiate_model_trainer(train_arr, test_arr))
+     
 
     except Exception as e:
         logging.info("Custom Execution.")
         raise CustomException(e, sys)
+    
+
+
+
+
+
+

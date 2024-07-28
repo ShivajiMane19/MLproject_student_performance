@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/BLANK%20REPORTS/New%20folder/New%20folder/ML_student_perf/mlruns/0/cb61ea4f3fe94539a9d7e95fb6757f74/artifacts
+end_time: 1722145546775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb61ea4f3fe94539a9d7e95fb6757f74
+run_name: chill-gull-996
+run_uuid: cb61ea4f3fe94539a9d7e95fb6757f74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722145541059
+status: 3
+tags: []
+user_id: root
